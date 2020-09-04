@@ -1,0 +1,36 @@
+header {
+    flex-wrap: wrap;
+    background-color: #49556a;
+}
+.header-btn-container {
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: block;
+}
+
+.header-body {
+    margin-right: 0;
+    display: none;
+    order: 2;
+    width: 100vw;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.header-body-link {
+    margin-right: 0;
+    color: #fff;
+    background-color: #414b62;
+    height: 64px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.img-box {
+    background-size: auto 200% ;
+}
+
+.img-box:hover {
+    background-size: auto 220% ;
+}
