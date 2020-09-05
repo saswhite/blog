@@ -16,6 +16,19 @@ a {
     text-decoration: none !important;
 }
 
+a:hover {
+    color: #000;
+}
+a:active {
+    color: #000;
+}
+a:visited {
+    color: #000;
+}
+a:link {
+    color: #000;
+}
+
 button {
     outline: none;
     border: none;
@@ -83,7 +96,7 @@ header {
 
 .header-body-link {
     font-size: 14px;
-    color: #fff;
+    color: #fff !important;
     height: 50px;
     line-height: 50px;
     margin-right: 23px;
@@ -91,6 +104,10 @@ header {
 
 .header-body-link:hover {
     color: #8e7c36;
+}
+
+.header-body-link:visited {
+    color: #8e7c36 !important;
 }
 
 .header-btn-container {
@@ -235,46 +252,46 @@ header {
     background-position: 50% 50%;
     overflow: hidden;
     transition: all  linear 0.5s;
-  }
-  .img-box:hover {
+}
+.img-box:hover {
     background-size: auto 120%
-  }
-  .main-box1-img {
+}
+.main-box1-img {
     background-image: url("./images/blog01.jpg");
-  }
-  .main-box2-img {
+}
+.main-box2-img {
     background-image: url("./images/blog02.jpg");
-  }
-  .main-box3-img {
+}
+.main-box3-img {
     background-image: url("./images/blog03.jpg");
-  }
-  .img-title {
+}
+.img-title {
     font-size: 20px;
     font-weight: 600;
     color: rgb(103, 105, 108);
     margin-bottom: 14px;
-  }
-  .img-document-post-right {
+}
+.img-document-post-right {
     float: right;
     font-size: 16px;
     color: rgb(103, 105, 108);
     font-weight: 300;
     padding-right: 60px;
-  }
-  
-  .img-document-post {
+}
+
+.img-document-post {
     font-size: 16px;
     color: rgb(103, 105, 108);
     font-weight: 300;
-  }
-  .img-document-p {
+}
+.img-document-p {
     display: inline-block;
     font-size: 16px;
     color: rgb(103, 105, 108);
     font-weight: 300;
     margin-bottom: 20px;
-  }
-  .img-document-bottom {
+}
+.img-document-bottom {
     font-size: 20px;
     font-weight: 300;
     color: #949494;
@@ -302,15 +319,13 @@ header {
     justify-content: space-between;
 }
 
-
 .contact-form {
     display: flex;
     flex-direction: column;
 }
+
 .contact-left {
     margin-top: 10px;
-    /* display: flex; */
-    /* flex-direction: column; */
 }
 
 .contact-left-txt-p {
@@ -379,4 +394,17 @@ footer {
 
 .footer-txt {
     color: #6a6a6a;
+}
+
+.col {
+    color: #8e7c36 !important
+
+}
+
+.dn {
+    display: none !important;
+}
+
+.df {
+    display: flex !important;
 }
